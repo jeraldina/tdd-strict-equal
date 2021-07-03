@@ -4,7 +4,9 @@
   "description": "week 04 assignment tdd-strict-equal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/jeraldina/tdd-strict-equal#readme",
   "devDependencies": {
-    "eslint": "^7.29.0"
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0",
+    "mocha": "^9.0.1"
   }
 }
