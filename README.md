@@ -1,4 +1,18 @@
 # tdd-strict-equal
 
-In this exercise you will be using a test driven development (TDD) approach to implement a strictEqual() function. The strictEqual() function will work the way the === operator does but you are not allowed to use this operator. For example, strictEqual(5, '5') would return false but strictEqual('a', 'a') would return true.
-Working in a branch called answer, start by creating your tests and committing those to your branch. Then create implement your function to get your tests to pass and commit those changes. Once you are done, push your branch up to GitHub, create a pull request, and request review from the instructor.
+When submitting your assignment, include answers to the following.
+
+#Identify the component of this assignment that you did the best on, and why.
+I am not sure. I am still learning. I feel like every part of this assignment was a learning process and a struggle.
+
+#Describe in plain english what problem this assignment was posing, and what your solution was to it.
+The problem this assignment posed was to create a function that will evaluate whether each character was equal to one another. 
+
+#What was your approach or process?
+My approach was to create the first part of the function and then determine what I need to write the tests, but my npm test command never worked on my device. 
+
+#What were your challenges?
+My challenges were learning node and how to use it, learning the syntax of it, and how to use external libraries and installing them. 
+
+#What resources did you use?
+I used google to figure out my errors. I couldn't contact TA's because I worked on this late at night. I also watched recordings of this week and office hours recordings. 
