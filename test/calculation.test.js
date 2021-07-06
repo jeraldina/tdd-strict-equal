@@ -1,7 +1,7 @@
 const describe = require('mocha').describe
 const it = require('mocha').it
 const expect = require('chai').expect
-const strictEqual = require('calculation.js')
+const strictEqual = require('../calculation')
 
 describe('testing for strict equals if not strict equal then its false', () => {
   it('test for equality of string and number', () => {
