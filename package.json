@@ -1,0 +1,26 @@
+{
+  "name": "tdd-strict-equal",
+  "version": "1.0.0",
+  "description": "week 04 assignment tdd-strict-equal",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeraldina/tdd-strict-equal.git"
+  },
+  "author": "Jeraldina Mingeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeraldina/tdd-strict-equal/issues"
+  },
+  "homepage": "https://github.com/jeraldina/tdd-strict-equal#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0",
+    "mocha": "^9.0.1"
+  }
+}
